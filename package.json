@@ -21,7 +21,8 @@
     "ws": "^8.18.0"
   },
   "devDependencies": {
-    "eslint": "^9.5.0",
-    "eslint-plugin-promise": "^6.2.0"
+    "eslint": "^9.8.0",
+    "eslint-plugin-promise": "^7.0.0",
+    "globals": "^15.8.0"
   }
 }

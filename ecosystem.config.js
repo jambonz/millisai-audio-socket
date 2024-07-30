@@ -1,6 +1,6 @@
 module.exports = {
   apps : [{
-    name: 'retellai-shim',
+    name: 'millisai-audio-socket',
     script: 'app.js',
     instance_var: 'INSTANCE_ID',
     exec_mode: 'fork',

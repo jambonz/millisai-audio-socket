@@ -62,10 +62,3 @@ server.on('upgrade', (request, socket, head) => {
     wsServer.emit('connection', ws, request);
   });
 });
-
-
-
-
-
-
-
