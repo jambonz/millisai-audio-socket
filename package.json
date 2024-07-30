@@ -1,0 +1,27 @@
+{
+  "name": "millisai-websocket-integration",
+  "version": "1.0.0",
+  "description": "Build Millis Apps with Websocket",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo 1",
+    "start": "node app",
+    "jslint": "eslint app.js lib"
+  },
+  "keywords": [
+    "millis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jambonz/node-client": "^0.3.77",
+    "express": "^4.19.2",
+    "express-basic-auth": "^1.2.1",
+    "pino": "^9.3.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.5.0",
+    "eslint-plugin-promise": "^6.2.0"
+  }
+}
