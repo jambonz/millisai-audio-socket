@@ -13,11 +13,11 @@ module.exports = {
       LOGLEVEL: 'info',
       HTTP_PORT: 3000,
       JAMBONZ_ACCOUNT_SID: 'your_account_sid',
-      JAMBONZ_API_KEY: 'your_api_key',
-      JAMBONZ_REST_API_BASE_URL: 'https://jambonz.cloud/api/v1', // or replace with your own self-hosted jambonz URL
-      MILLISAI_AGENT_ID: 'your_millis_agent_id',
+      JAMBONZ_API_KEY: 'your_api_key','https://jambonz.cloud/api/v1', // or replace with your own self-hosted jambonz URL
+      MILLISAI_AGENT_ID: '-your_millis_agent_id',
       MILLISAI_PUBLIC_KEY: 'your_millis_public_key',
-      WS_URL: 'wss://your_ngrok_or_other_domain_where_this_app_is_running',
+      MILLISAI_WS_URL: 'wss://api-west.millis.ai:8080/millis',
+      WS_URL: 'wss://your_ngrok_or_other_domain_where_this_app_is_running'
     }
   }]
 };

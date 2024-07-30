@@ -6,7 +6,7 @@ For those of you not familiar with jambonz, it is an open source (MIT-licensed) 
 
 ## Overview
 
-This application makes use of the Millis AI [audio websocket](https://millisai.mintlify.app/integration/native-apps-with-websocket) API.  As of this writing (July 2024) that API has been marked as deprecated; however there is as yet no replacement for it and Millis AI folks have indicated it will be around for a while.
+This application makes use of the Millis AI [audio websocket](https://millisai.mintlify.app/integration/native-apps-with-websocket) API.
 
 This is intended to be a sample application that you can start with and later extend. It currently supports these features
 
@@ -28,8 +28,6 @@ Edit the [./ecosystem.config.js file](./ecosystem.config.js) and fill in the env
 ## I'm new to jambonz and I need more help!
 
 Got you covered.  Easiest way to get started is to [create a free trial account on jambonz.cloud](https://jambonz.cloud/register).  Once you have an account, add a Carrier for your chosen SIP trunking provider.  Then add an Application that contains the websocket endpoint that this application exposes.  Add a phone number from your Carrier and connect it to the Application, and you are set to go.
-
-For more details, refer to the [blog post](https://blog.jambonz.org/using-jambonz-for-telephony-integration-with-Millis-ai) I mentioned above.
 
 ## I have more questions!
 Join our Slack channel by going to https://joinslack/jambonz.org.
